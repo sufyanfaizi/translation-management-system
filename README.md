@@ -45,10 +45,12 @@ mvn spring-boot:run
 | Method | Endpoint | Description |
 |--------|----------|-------------|
 | `POST` | `/api/auth/login` | User login |
-| `GET` | `/api/translations/{locale}` | Get translations by locale |
-| `POST` | `/api/translations` | Add new translation |
-| `PUT` | `/api/translations/{id}` | Update translation |
-| `DELETE` | `/api/translations/{id}` | Delete translation |
+| `POST` | `/api/auth/register` | User Register |
+| `GET` | `/api/v1/translations/{locale}` | Get translations by locale |
+| `POST` | `/api/v1/translations` | Add new translation |
+| `PUT` | `/api/v1/translations` | Update translation |
+| `PUT` | `/api/v1/translations/search` | Search translation |
+| `DELETE` | `/api/v1/translations/export` | Export translation |
 
 ---
 
