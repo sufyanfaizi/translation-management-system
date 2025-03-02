@@ -24,6 +24,88 @@ The **Translation Management System** is a Spring Boot-based API that provides s
 git clone https://github.com/sufyanfaizi/translation-management-system.git
 cd translation-management-system
 ```
+# Translation Management Service
+
+## Overview
+
+This is a Spring Boot-based Translation Management Service API.
+
+## Prerequisites
+
+Ensure you have the following installed:
+
+- Docker
+- Docker Compose (optional, if using `docker-compose.yml`)
+
+## Running the App in Docker
+
+### 1. Build the Docker Image
+
+Run the following command to build the Docker image:
+
+```sh
+docker build -t translation-service .
+```
+
+### 2. Run the Container
+
+To run the application on port **8080**:
+
+```sh
+docker run -p 8080:8080 --name translation-service-container translation-service
+```
+
+If the application is set to run on **8085** inside the container, adjust the command:
+
+```sh
+docker run -p 8085:8085 --name translation-service-container translation-service
+```
+
+### 3. Using Docker Compose (Optional)
+
+If you have a `docker-compose.yml` file, start the application using:
+
+```sh
+docker-compose up -d
+```
+
+### 4. Stopping the Container
+
+To stop and remove the container:
+
+```sh
+docker stop translation-service-container && docker rm translation-service-container
+```
+
+### 5. Checking Logs
+
+To view logs from the running container:
+
+```sh
+docker logs -f translation-service-container
+```
+
+## API Documentation
+
+Once the application is running, access the API at:
+
+```
+http://localhost:8080/swagger-ui.html
+```
+
+## Troubleshooting
+
+- If you see **port already in use**, run:
+  ```sh
+  lsof -i :8080  # or the port you're using
+  ```
+  Then stop the process or change the container port.
+- If encountering **permission issues**, try running with `sudo` or adjust Docker permissions.
+
+---
+
+This guide helps you set up and run the service using Docker effectively.
+
 
 ### **2. Configure the Database**
 - Update `application.properties` (or `application.yml`) with your database settings:
