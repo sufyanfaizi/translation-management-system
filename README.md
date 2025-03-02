@@ -31,7 +31,6 @@ cd translation-management-system
 spring.datasource.url=jdbc:mysql://localhost:3306/translation_db
 spring.datasource.username=root
 spring.datasource.password=yourpassword
-spring.jpa.hibernate.ddl-auto=update
 ```
 
 ### **3. Build and Run the Application**
