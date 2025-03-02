@@ -37,7 +37,7 @@ Ensure you have the following installed:
 - Docker
 - Docker Compose (optional, if using `docker-compose.yml`)
 
-## Running the App in Docker
+## 🐳 Running the App in Docker
 
 ### 1. Build the Docker Image
 
