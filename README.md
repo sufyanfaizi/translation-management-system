@@ -55,12 +55,6 @@ To run the application on port **8080**:
 docker run -p 8080:8080 --name translation-service-container translation-service
 ```
 
-If the application is set to run on **8085** inside the container, adjust the command:
-
-```sh
-docker run -p 8085:8085 --name translation-service-container translation-service
-```
-
 ### 3. Using Docker Compose (Optional)
 
 If you have a `docker-compose.yml` file, start the application using:
