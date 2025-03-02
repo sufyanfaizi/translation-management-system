@@ -40,7 +40,7 @@ mvn clean install
 mvn spring-boot:run
 ```
 
-### **4. Swagger API Documentation**
+### **4. 🚀 Swagger API Documentation**
 Once the application is running, you can access the Swagger UI for API documentation:
 
 - Swagger UI: http://localhost:8080/swagger-ui/index.html
