@@ -1,4 +1,4 @@
-# 🎨🚀 Translation Management System
+# 🌍🔄📝🚀 Translation Management System
 
 ## Overview
 The **Translation Management System** is a Spring Boot-based API that provides scalable and efficient translation management. It allows storing, retrieving, and managing translations for different locales with tagging for context. 
