@@ -12,9 +12,8 @@ The **Translation Management System** is a Spring Boot-based API that provides s
 
 ## Tech Stack
 - **Backend**: Spring Boot (Maven), Spring Data JPA, Spring Security
-- **Database**: PostgreSQL / MySQL
+- **Database**: MySQL
 - **Authentication**: JWT (JSON Web Token)
-- **Deployment**: Docker, AWS/GCP (optional)
 
 ---
 
@@ -41,7 +40,13 @@ mvn clean install
 mvn spring-boot:run
 ```
 
-### **4. API Endpoints**
+### **4. Swagger API Documentation**
+Once the application is running, you can access the Swagger UI for API documentation:
+
+Swagger UI: http://localhost:8080/swagger-ui/index.html
+OpenAPI Spec: http://localhost:8080/v3/api-docs
+
+### **5. API Endpoints**
 | Method | Endpoint | Description |
 |--------|----------|-------------|
 | `POST` | `/api/auth/login` | User login |
