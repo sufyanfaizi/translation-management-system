@@ -81,7 +81,9 @@ Once the application is running, you can access the Swagger UI for API documenta
 ## 📌 Future Enhancements
 - Web UI for translation management.
 - Role-based access control (RBAC).
-- Caching for high-speed translation lookups.
+- Redis caching for high-speed translation lookups.
+- Dockerize application
+
 
 ---
 
