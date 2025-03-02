@@ -77,7 +77,7 @@ mvn spring-boot:run
 ## 📌 Future Enhancements
 - Web UI for translation management.
 - Role-based access control (RBAC).
-- Caching with Redis for high-speed translation lookups.
+- Caching for high-speed translation lookups.
 
 ---
 
